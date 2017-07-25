@@ -1,6 +1,6 @@
 # object_assign
 custom made Object.assign
-
+```
 const assigner = ( target, ...arrOfObjs ) => {
     let currObj = target || {};
     if( arrOfObjs.length === 0 ) { 
@@ -18,3 +18,4 @@ const assigner = ( target, ...arrOfObjs ) => {
 
     return currObj;
 };
+```
