@@ -1,8 +1,7 @@
 # object_assign
 custom made Object.assign
 ```
-const assigner = ( target, ...arrOfObjs ) => {
-    let currObj = target || {};
+const assigner = ( currObj={}, ...arrOfObjs ) => {
     if( arrOfObjs.length === 0 ) { 
         console.log("Enter sourceObject/'s that you want to copy") ;
         return false;
